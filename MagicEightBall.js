@@ -1,38 +1,39 @@
-//User Welcome
-var userName = "Luna";
-userName ? console.log("Hello " + userName) : console.log("Hello");
+//User Info
+var userName = "LunarKistune";
+userName ? console.log(`Hello ${userName}!`) : console.log("Hello!");
 //User Question
-const userQuestion = "Will this test work?";
-console.log(userQuestion);
-//Eighht Ball Magic
-var randomNumber = Math.floor(Math.random() * 8);
-var eightBall = ""
-//Eight Ball Roll
-switch (randomNumber){
+var userQuestion = "Will we ever know what the fox says?";
+console.log(`${userName} asks : ${userQuestion}`);
+//Random Number
+const randomNumber = Math.floor(Math.random() * 8);
+let eightBall = ""
+//Roll for Initiative
+switch (randomNumber) { 
   case 0:
-    eightBall = "It is certain"
+    eightBall = "It is certain";
     break;
   case 1:
-    eightBall = "It is decidedly so"
+    eightBall = "It is decidedly so";
     break;
   case 2:
-    eightBall = "Reply hazy try again"
+    eightBall = "Reply hazy, try again";
     break;
   case 3:
-    eightBall = "Cannot predict now"
+    eightBall = "Cannot predict now";
     break;
   case 4:
-    eightBall = "Do not count on it"
+    eightBall = "Do not count on it";
     break;
   case 5:
-    eightBall = "My sources say no"
+    eightBall = "My sources say no";
     break;
   case 6:
-    eightBall = "Outlook not so good"
+    eightBall = "Outlook not so good";
     break;
   case 7:
-    eightBall = "Signs point to yes"
+    eightBall = "Signs point to yes";
+    break;
+  default:
     break;
 }
-
 console.log(eightBall)
