@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JasChristine
 - 👀 I’m interested in everything under the sun that is artsy and nerdy!
-- 🌱 I’m currently learning python, javascript, and webdesign/development(html/css/ect.)
+- 🌱 I’m currently learning javascript, and webdesign/development(html/css/ect.)
 - 💞️ I’m looking to collaborate on TBD...
 - 📫 How to reach me TBD...
 
