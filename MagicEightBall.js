@@ -6,9 +6,9 @@ var userQuestion = "Will we ever know what the fox says?";
 console.log(`${userName} asks : ${userQuestion}`);
 //Random Number
 const randomNumber = Math.floor(Math.random() * 8);
-let eightBall = ""
+let eightBall = "";
 //Roll for Initiative
-switch (randomNumber) { 
+switch (randomNumber) {
   case 0:
     eightBall = "It is certain";
     break;
@@ -36,4 +36,4 @@ switch (randomNumber) {
   default:
     break;
 }
-console.log(eightBall)
+console.log(eightBall);
