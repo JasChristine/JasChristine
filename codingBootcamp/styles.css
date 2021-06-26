@@ -1,32 +1,108 @@
-header {
-    width: 300px;
-    height: 300px;
-    background-color: #732C2C;
-   
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Viaoda Libre", cursive, "Gill Sans", "Gill Sans MT", Calibri;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+li {
+  margin: 15px 5px;
+}
+
+.logo {
+  height: 30px;
+  margin: 15px 30px;
 }
 
 section {
-    width: 300px;
-    height:100px;
-    background-color: #F8C0C8;
-   
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(#f8c0c8, #cd5d67, #f8c0c8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.about-me {
-    width: 300px;
-    height: 100px;
-    background-color: #CD5D67;
-    margin: 10px;
-    border: solid #D8973C 10px;
-    border-radius: 15px;
+#main {
+  box-shadow: 2px 2px 5px #732c2c;
+}
+
+.hero {
+  width: 100%;
+  height: 250px;
+  background-color: #cd5d67;
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
 
 #name {
-    color: #ECC8AF;
+  color: #ecc8af;
+}
+
+.test {
+  width: 30px;
+  height: 30px;
+  background-color: #d8973c;
+  margin: 5px;
+}
+
+.button {
+  border: 0;
+  padding: 0 20px;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  line-height: 2;
+  color: #ecc8af;
+  text-shadow: 1px 1px 1px #732c2c;
+  background-color: rgba(205, 93, 103, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(2115, 44, 44, 0.2),
+    rgba(115, 44, 44, 0.2) 30%,
+    rgba(115, 44, 44)
+  );
+  box-shadow: inset 2px 2px 3px rgba(216, 151, 60, 0.6),
+    inset -2px -2px 3px rgba(90, 66, 32, 0.6);
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: rgba(216, 151, 60, 1);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(236, 200, 175, 0.6);
+}
+
+a {
+  text-decoration: none;
+  color: #732c2c;
+}
+
+a:hover {
+  color: #f8c0c8;
+}
+
+a:active {
+  color: #d8973c;
 }
