@@ -1,7 +1,13 @@
 body {
   display: flex;
+  background-color: #f9e5d8;
   flex-direction: column;
   font-family: "Viaoda Libre", cursive, "Gill Sans", "Gill Sans MT", Calibri;
+}
+
+.logo {
+  height: 30px;
+  margin: 15px 30px;
 }
 
 nav {
@@ -23,29 +29,19 @@ li {
   margin: 15px 5px;
 }
 
-.logo {
-  height: 30px;
-  margin: 15px 30px;
-}
-
-section {
+.hero {
   width: 100%;
-  height: 100px;
-  background-image: linear-gradient(#f8c0c8, #cd5d67, #f8c0c8);
+  background-color: #ffb5a7;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#main {
-  box-shadow: 2px 2px 5px #732c2c;
-}
-
-.hero {
-  width: 100%;
-  height: 250px;
-  background-color: #cd5d67;
+.hero-info {
+  height: 300px;
+  width: 300px;
+  background-color: #daa89b;
+  margin: 30px;
 }
 
 .avatar {
@@ -55,14 +51,22 @@ section {
 }
 
 #name {
-  color: #ecc8af;
+  font-size: 45px;
+  color: #4f000b;
 }
 
-.test {
-  width: 30px;
-  height: 30px;
-  background-color: #d8973c;
-  margin: 5px;
+section {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(#f9e5d8, #daa89b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main {
+  box-shadow: 2px 2px 5px #001a23;
 }
 
 .button {
@@ -72,37 +76,44 @@ section {
   width: 150px;
   text-align: center;
   line-height: 2;
-  color: #ecc8af;
-  text-shadow: 1px 1px 1px #732c2c;
-  background-color: rgba(205, 93, 103, 1);
+  color: #f9e5d8;
+  text-shadow: 1px 1px 1px #131211;
+  background-color: rgba(97, 139, 74, 1);
   background-image: linear-gradient(
     to top left,
-    rgba(2115, 44, 44, 0.2),
-    rgba(115, 44, 44, 0.2) 30%,
-    rgba(115, 44, 44)
+    rgba(97, 139, 74, 0.2),
+    rgba(218, 168, 155, 0.2) 30%,
+    rgb(254, 200, 154)
   );
-  box-shadow: inset 2px 2px 3px rgba(216, 151, 60, 0.6),
-    inset -2px -2px 3px rgba(90, 66, 32, 0.6);
+  box-shadow: inset 2px 2px 3px rgba(79, 0, 11, 0.6),
+    inset -2px -2px 3px rgba(0, 26, 35, 0.6);
   border-radius: 10px;
 }
 
 .button:hover {
-  background-color: rgba(216, 151, 60, 1);
+  background-color: rgba(79, 0, 11, 1);
 }
 
 .button:active {
-  box-shadow: inset -2px -2px 3px rgba(236, 200, 175, 0.6);
+  box-shadow: inset -2px -2px 3px rgba(20, 26, 35, 0.6);
+}
+
+.test {
+  width: 30px;
+  height: 30px;
+  background-color: #fec89a;
+  margin: 5px;
 }
 
 a {
   text-decoration: none;
-  color: #732c2c;
+  color: #4f000b;
 }
 
 a:hover {
-  color: #f8c0c8;
+  color: #ffb5a7;
 }
 
 a:active {
-  color: #d8973c;
+  color: #fcd5ce;
 }
