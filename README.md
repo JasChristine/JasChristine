@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @JasChristine aka LunarKitsune 🦊
+- 👋🏼 Hi, I’m @JasChristine aka LunarKitsune 🦊
 - 👀 I’m interested in everything under the sun that is artsy and nerdy!
 - 🌱 I’m currently learning javascript, and webdesign/development(html/css/ect.)
 - 💞️ I’m looking to collaborate on TBD...
