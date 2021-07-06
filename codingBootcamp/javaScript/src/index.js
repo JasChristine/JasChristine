@@ -1,13 +1,12 @@
-//Arrays
+// Functions
+let name = "Kistune";
+let count = 1;
 
-let books = [
-  "The Hobbit",
-  "Mira Mirror",
-  "Maze Runner",
-  "Lost Gods",
-  "Slewfoot",
-  "Child Theif",
-];
-
-console.log(books.length);
-console.log(books[0]);
+const showAlert = () => {
+  console.log(`${name}, wake up! This is alarm number ${count}!`);
+  count += 1;
+};
+showAlert();
+showAlert();
+showAlert();
+showAlert();
