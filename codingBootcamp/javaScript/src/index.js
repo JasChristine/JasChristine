@@ -1,12 +1,7 @@
-// Functions
-let name = "Kistune";
-let count = 1;
+//While Loop
+let i = 0;
 
-const showAlert = () => {
-  console.log(`${name}, wake up! This is alarm number ${count}!`);
-  count += 1;
-};
-showAlert();
-showAlert();
-showAlert();
-showAlert();
+while (i <= 100) {
+  console.log(i + "beers on the wall");
+  i++;
+}
