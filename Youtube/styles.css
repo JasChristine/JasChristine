@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+footer {
+    position: absolute;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    width: 100%;
+    text-align: right;
+}
